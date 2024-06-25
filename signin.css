@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.contaner{
+    /* position: fixed; */
+    height: 1000px;
+    width: 1215px;
+    background-color: rgb(220, 226, 226);
+    background: linear-gradient(to top, black,yellow, skyblue);
+    background-size: cover;
+    background-position: center;
+
+}
+.login-page{
+    height: 420px;
+    width: 380px;
+    background-color:transparent;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    right: -430px;
+    border: 1px solid transparent;
+}
+.username{
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: white;
+    filter: blur(0.4px);
+    border: 1px solid white;
+    background-color: transparent;
+}
+.username:hover{
+    filter: brightness(200%);
+transition: 0.3s;
+filter: blur(0px);
+}
+::placeholder{
+    color: white;
+}
+.password{
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: 70px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    filter: blur(0.4px);
+    border: 1px solid white;
+    background-color: transparent;
+
+}
+.password:hover{
+    filter: blur(0px);
+    transition: 0.3s;
+    filter: brightness(200%);
+    
+}
+#signin{
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    /* background-color: ; */
+    right: 0px;
+    top: 0px;
+}
+#button-sign-in{
+    height: 50px;
+    width: 315px;
+    position: relative;
+    top: 90px;
+    left: 8px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #fd9c6b;
+    position: relative;
+    border: 1px solid white;
+}
+.checkbox{
+  
+    position: relative;
+    top: 135px;  
+    right: 300px; 
+    
+   
+}
+
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    position: relative;
+    top: 20px;
+
+}
+span{
+    color: white;
+    position: relative;
+    display: inline;
+    top: 100px;
+    left: -15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fd9c6b;
+}
+
+a{
+    position: relative;
+    /* display: inline; */
+    top: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    right: -45px;
+    font-size: 15px;
+
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 120px;
+}
+
+#facebook{
+    position: relative;
+    top: 140px;
+    left: 0px;
+    display: inline;
+    background-color: black;
+    border: 1px solid white;
+    height: 35px;
+    width: 120px;
+}
+#facebook:hover{
+    background-color: white;
+    transition: .3s;
+    border: 1px solid black;
+}
+#facebook-text{
+    position: relative;
+    color: white;
+    top: 0px;
+    left: 0px;
+
+}
+#facebook-text:hover{
+    color: black;
+    transition: .3s;
+}
+#twitter{
+    position: relative;
+    top: 140px;
+    left: 0px;
+
+    display: inline;
+    background-color: black;
+    border: 1px solid white;
+    height: 35px;
+    width: 120px;
+}
+#twitter:hover{
+    background-color: white;
+    transition: .3s;
+    border: 1px solid black;
+}
+#twitter-text{
+    position: relative;
+    color: white;
+    top: 0px;
+    left: 0px;
+}
+#twitter-text:hover{
+    color: black;
+    transition: .3s;
+}
